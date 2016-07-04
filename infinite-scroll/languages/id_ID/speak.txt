@@ -2,8 +2,8 @@ plugin_infinite_scroll:
   title:
     type: Mode
     types:
-      0: Klik untuk Memuat
+      0: Muat dengan Klik
       1: Muat pada Batas Akhir Gulir
-      2: Klik untuk Memuat, lalu Muat pada Batas Akhir Gulir
+      2: Muat dengan Klik, lalu Muat pada Batas Akhir Gulir
     target: Target
     text: Teks

@@ -15,17 +15,17 @@ Plugin ini mengharuskan Anda untuk menentukan tiga elemen sebagai target JavaScr
  - `.post`
  - `.blog-pager`
 
-Anda dapat mengubah nilainya nanti melalui halaman manajer plugin untuk menyesuaikannya berdasarkan markup HTML pada tameng Anda.
+Anda dapat menyesuaikannya nanti berdasarkan markup HTML pada tameng Anda.
 
-~~~ .php
+~~~ .html
 <main class="posts">
   <article class="post"> … </article>
   <article class="post"> … </article>
   <article class="post"> … </article>
 </main>
-<nav class="blog-pager">
-  <a href=" … " rel="next">Pos Berikutnya</a>
-</nav>
+<nav class="blog-pager"> … </nav>
 ~~~
+
+*[HTML]: Hyper Text Markup Language
 
 <!-- block:donate -->

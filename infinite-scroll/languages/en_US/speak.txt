@@ -2,8 +2,8 @@ plugin_infinite_scroll:
   title:
     type: Mode
     types:
-      0: Click to Load
+      0: Load on Click
       1: Load on Scroll Limit
-      2: Click to Load, then Load on Scroll Limit
+      2: Load on Click, then Load on Scroll Limit
     target: Target
     text: Text

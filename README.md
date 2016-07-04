@@ -11,7 +11,7 @@ This plugin requires you to determine three elements as the JavaScript target. T
  - `.post`
  - `.blog-pager`
 
-You can change the value later through the plugin manager page to adjust them based on the HTML markup of your shield.
+You can adjust them later based on the HTML markup of your shield.
 
 ~~~ .html
 <main class="posts">
@@ -19,7 +19,5 @@ You can change the value later through the plugin manager page to adjust them ba
   <article class="post"> … </article>
   <article class="post"> … </article>
 </main>
-<nav class="blog-pager">
-  <a href=" … " rel="next">Next Posts</a>
-</nav>
+<nav class="blog-pager"> … </nav>
 ~~~
