@@ -1,0 +1,9 @@
+plugin_infinite_scroll:
+  title:
+    type: Mode
+    types:
+      0: Click to Load
+      1: Load on Scroll Limit
+      2: Click to Load, then Load on Scroll Limit
+    target: Target
+    text: Text

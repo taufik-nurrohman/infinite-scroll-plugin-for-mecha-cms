@@ -1,0 +1,31 @@
+Title: Gulir Tak Terbatas
+Author: Taufik Nurrohman
+URL: http://latitudu.com
+Version: 1.0.0
+
+====
+
+> Halaman tak berujung.
+
+_Infinite scroll_ adalah [teknik desain web](https://en.wiktionary.org/wiki/infinite_scroll) yang mencegah bar gulir peramban menggulir ke bagian bawah halaman, membuat halaman tumbuh dengan konten tambahan sebagai gantinya.
+
+Plugin ini mengharuskan Anda untuk menentukan tiga elemen sebagai target JavaScript. Pos, wadah pos dan wadah navigasi. Target bawaan yang telah ditentukan adalah:
+
+ - `.posts`
+ - `.post`
+ - `.blog-pager`
+
+Anda dapat mengubah nilainya nanti melalui halaman manajer plugin untuk menyesuaikannya berdasarkan markup HTML pada tameng Anda.
+
+~~~ .php
+<main class="posts">
+  <article class="post"> … </article>
+  <article class="post"> … </article>
+  <article class="post"> … </article>
+</main>
+<nav class="blog-pager">
+  <a href=" … " rel="next">Pos Berikutnya</a>
+</nav>
+~~~
+
+<!-- block:donate -->
