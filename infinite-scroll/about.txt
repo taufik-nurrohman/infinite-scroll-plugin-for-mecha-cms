@@ -1,7 +1,7 @@
 Title: Infinite Scroll
 Author: Taufik Nurrohman
 URL: http://latitudu.com
-Version: 1.0.0
+Version: 1.1.0
 
 ====
 
@@ -9,11 +9,12 @@ Version: 1.0.0
 
 Infinite scroll is a [web design technique](https://en.wiktionary.org/wiki/infinite_scroll) that prevents the browser scroll bar from scrolling to the bottom of the page, causing the page to grow with additional content instead.
 
-This plugin requires you to determine three elements as the JavaScript target. The posts, the posts container and the navigation container. The default elements are:
+This plugin requires you to determine four elements as the JavaScript target. The post, the posts container, the navigation container and the next navigation link. The default elements are:
 
  - `.posts`
  - `.post`
  - `.blog-pager`
+ - `a[rel="next"]`
 
 You can adjust them later based on the HTML markup of your shield.
 
@@ -23,7 +24,9 @@ You can adjust them later based on the HTML markup of your shield.
   <article class="post"> … </article>
   <article class="post"> … </article>
 </main>
-<nav class="blog-pager"> … </nav>
+<nav class="blog-pager">
+  <a rel="next"> … </a>
+</nav>
 ~~~
 
 *[HTML]: Hyper Text Markup Language
