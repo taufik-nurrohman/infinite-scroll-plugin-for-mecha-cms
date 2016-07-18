@@ -59,14 +59,14 @@ Adding hooks with custom ID:
 ~~~ .javascript
 infinite_scroll.on('load', function() {
     alert('Posts loaded.');
-}, 'test-id');
+}, 1234);
 ~~~
 
 Removing hooks:
 
 ~~~ .javascript
 infinite_scroll.off('load'); // remove all `load` hooks data
-infinite_scroll.off('load', 'test-id'); // remove `load` hook data with id `test-id`
+infinite_scroll.off('load', 1234); // remove `load` hook data with id `1234`
 ~~~
 
 Retrieving hooks:
